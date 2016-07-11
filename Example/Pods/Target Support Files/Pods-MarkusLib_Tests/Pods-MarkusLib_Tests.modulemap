@@ -1,0 +1,6 @@
+framework module Pods_MarkusLib_Tests {
+  umbrella header "Pods-MarkusLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

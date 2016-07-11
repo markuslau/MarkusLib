@@ -1,0 +1,16 @@
+PODS:
+  - MarkusLib (0.1.0)
+
+DEPENDENCIES:
+  - MarkusLib (from `../`)
+
+EXTERNAL SOURCES:
+  MarkusLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarkusLib: ea6cf78d6817ffab68c5472a8e1b8de4fe7ea9bc
+
+PODFILE CHECKSUM: a0e22d88c777aea3e5912f2fc1c95d410e940a5f
+
+COCOAPODS: 1.0.1

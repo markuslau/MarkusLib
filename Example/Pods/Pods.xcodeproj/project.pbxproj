@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB16692A635B53D4AEB9BA4400D2AF9 /* MarkusLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F67E022FB495B1602D18DFCC645135F7 /* MarkusLib-dummy.m */; };
+		6EE1736563A2265E991A0B1A610C44B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7C792318230B4880ED625115D5A5892E /* MarkusLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10516E6A41A1EB48A5474A5FCF30F931 /* MarkusLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3F86332A7C37AB2B91631AF768E62D /* Pods-MarkusLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552873AFB005EA596CADC8B1015A505B /* Pods-MarkusLib_Example-dummy.m */; };
+		97C2CCDEAFF6BCDEAA4ED089FF60071D /* Pods-MarkusLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7311B35D82A5F56B3EDDBA56A2A749C9 /* Pods-MarkusLib_Tests-dummy.m */; };
+		9C67A36E661076960EA0A0F2898D56DF /* Pods-MarkusLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F080F22A6B5EE45FC53DA232AF6CF5CA /* Pods-MarkusLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D5BF763CA5A5D82A8FB858E73A94B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A5CCA43B1DF09861AA8C1B82D0C65D74 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */; };
+		F5F124B8B41F39028D8AC20B6CA427B5 /* Pods-MarkusLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A4C4C4FB6CD1DF6D25E138A84EC694 /* Pods-MarkusLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7B26B212945BE967D5F4580A02198F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F97EDB42F9B371B7671DF95687BAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685DC2EBD056E5C24C07260CDD8A3915;
+			remoteInfo = MarkusLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0924130F01E178B2AE3F824BC8AE5B14 /* Pods-MarkusLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkusLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10516E6A41A1EB48A5474A5FCF30F931 /* MarkusLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkusLib-umbrella.h"; sourceTree = "<group>"; };
+		24AA128D5D3BE45632ECA11F2EAF42E1 /* Pods-MarkusLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E94DDD3D4CA837E1EEFCE013B694A27 /* MarkusLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MarkusLib.modulemap; sourceTree = "<group>"; };
+		40433F544AAE3D84DE0F31CC1AD8FAE3 /* Pods-MarkusLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A14B23089EADC3C5720ECB2352AB9E /* Pods-MarkusLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarkusLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		552873AFB005EA596CADC8B1015A505B /* Pods-MarkusLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkusLib_Example-dummy.m"; sourceTree = "<group>"; };
+		5915411C73AC1C7AF6A43E0B77F362BD /* Pods-MarkusLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61F1DF8CE7530DA7301CDC8FE658E73C /* MarkusLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkusLib-prefix.pch"; sourceTree = "<group>"; };
+		655DFE2E82DEFD57EFAC3863A125523A /* Pods-MarkusLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7311B35D82A5F56B3EDDBA56A2A749C9 /* Pods-MarkusLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkusLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		7AFBC6EE8DF257CC82A0195FB2E5EEB5 /* Pods_MarkusLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkusLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB870FE038250F3E7E2C1E36DD5356A /* Pods-MarkusLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkusLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03147360A238687C65EC644E050581B /* Pods-MarkusLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Example-resources.sh"; sourceTree = "<group>"; };
+		A9F72777F0D6BA702E8DDD89119C5CAF /* Pods-MarkusLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkusLib_Example.modulemap"; sourceTree = "<group>"; };
+		AEE45DB1EDA3294C32488CC43C609F3C /* Pods-MarkusLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		C6B93136FF635912B6498288847BFD10 /* MarkusLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkusLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AE22556ECF732F11E6087CB75DBFF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D524C32CA1F41F0B6EBF0C63E610B19E /* Pods-MarkusLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DBA4C819FB3A006EF3E61AD1C27EABDF /* MarkusLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkusLib.xcconfig; sourceTree = "<group>"; };
+		DE97FED0DB36C48D279FB9CAD9EDC283 /* Pods-MarkusLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E6FE72AFF3A0475303511DD534F1A403 /* Pods_MarkusLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkusLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7634684F643121FF1E3031EE8476F91 /* Pods-MarkusLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarkusLib_Tests.modulemap"; sourceTree = "<group>"; };
+		E8A4C4C4FB6CD1DF6D25E138A84EC694 /* Pods-MarkusLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkusLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EA940FFFDE870E27EF69C445315CDA41 /* Pods-MarkusLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkusLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F080F22A6B5EE45FC53DA232AF6CF5CA /* Pods-MarkusLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarkusLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		F67E022FB495B1602D18DFCC645135F7 /* MarkusLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarkusLib-dummy.m"; sourceTree = "<group>"; };
+		F703FA35414022DDE3F584A6484642CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C35334C2728243C6B19851F3E99BA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12313F8C220D0AE86F42F01FE3C554E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B26B212945BE967D5F4580A02198F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A457CB0808DEAEC024F78607F572AC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE1736563A2265E991A0B1A610C44B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA28820D8D737895B2460DCFFA289263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5BF763CA5A5D82A8FB858E73A94B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6684D7582AFB1309C192E42BEA978F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE22556ECF732F11E6087CB75DBFF4 /* Info.plist */,
+				3E94DDD3D4CA837E1EEFCE013B694A27 /* MarkusLib.modulemap */,
+				DBA4C819FB3A006EF3E61AD1C27EABDF /* MarkusLib.xcconfig */,
+				F67E022FB495B1602D18DFCC645135F7 /* MarkusLib-dummy.m */,
+				61F1DF8CE7530DA7301CDC8FE658E73C /* MarkusLib-prefix.pch */,
+				10516E6A41A1EB48A5474A5FCF30F931 /* MarkusLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarkusLib";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4CB43BB66B81750CBCFB56CE3144D7EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD9C3B5EB1D97CE52C6963457C0D021 /* MarkusLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4CD9C3B5EB1D97CE52C6963457C0D021 /* MarkusLib */ = {
+			isa = PBXGroup;
+			children = (
+				868DA76E91D7F31522FD3DFCCC38CA3A /* MarkusLib */,
+				1E6684D7582AFB1309C192E42BEA978F /* Support Files */,
+			);
+			name = MarkusLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5AA8812131EE053B4FD411D83F935985 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7AADE8E4E1D06CAB47CD7908EA16E3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B93136FF635912B6498288847BFD10 /* MarkusLib.framework */,
+				E6FE72AFF3A0475303511DD534F1A403 /* Pods_MarkusLib_Example.framework */,
+				7AFBC6EE8DF257CC82A0195FB2E5EEB5 /* Pods_MarkusLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4CB43BB66B81750CBCFB56CE3144D7EF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7AADE8E4E1D06CAB47CD7908EA16E3E7 /* Products */,
+				D9033982E56796162E6CDBAF4C4B07CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		868DA76E91D7F31522FD3DFCCC38CA3A /* MarkusLib */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8812131EE053B4FD411D83F935985 /* Classes */,
+			);
+			path = MarkusLib;
+			sourceTree = "<group>";
+		};
+		8949A19446753685FB4960D0D2B960AF /* Pods-MarkusLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F703FA35414022DDE3F584A6484642CB /* Info.plist */,
+				E7634684F643121FF1E3031EE8476F91 /* Pods-MarkusLib_Tests.modulemap */,
+				0924130F01E178B2AE3F824BC8AE5B14 /* Pods-MarkusLib_Tests-acknowledgements.markdown */,
+				8CB870FE038250F3E7E2C1E36DD5356A /* Pods-MarkusLib_Tests-acknowledgements.plist */,
+				7311B35D82A5F56B3EDDBA56A2A749C9 /* Pods-MarkusLib_Tests-dummy.m */,
+				DE97FED0DB36C48D279FB9CAD9EDC283 /* Pods-MarkusLib_Tests-frameworks.sh */,
+				AEE45DB1EDA3294C32488CC43C609F3C /* Pods-MarkusLib_Tests-resources.sh */,
+				E8A4C4C4FB6CD1DF6D25E138A84EC694 /* Pods-MarkusLib_Tests-umbrella.h */,
+				40433F544AAE3D84DE0F31CC1AD8FAE3 /* Pods-MarkusLib_Tests.debug.xcconfig */,
+				D524C32CA1F41F0B6EBF0C63E610B19E /* Pods-MarkusLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-MarkusLib_Tests";
+			path = "Target Support Files/Pods-MarkusLib_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9033982E56796162E6CDBAF4C4B07CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4A4017B54B27D458980164974069C /* Pods-MarkusLib_Example */,
+				8949A19446753685FB4960D0D2B960AF /* Pods-MarkusLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DEE4A4017B54B27D458980164974069C /* Pods-MarkusLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8C35334C2728243C6B19851F3E99BA1 /* Info.plist */,
+				A9F72777F0D6BA702E8DDD89119C5CAF /* Pods-MarkusLib_Example.modulemap */,
+				44A14B23089EADC3C5720ECB2352AB9E /* Pods-MarkusLib_Example-acknowledgements.markdown */,
+				EA940FFFDE870E27EF69C445315CDA41 /* Pods-MarkusLib_Example-acknowledgements.plist */,
+				552873AFB005EA596CADC8B1015A505B /* Pods-MarkusLib_Example-dummy.m */,
+				655DFE2E82DEFD57EFAC3863A125523A /* Pods-MarkusLib_Example-frameworks.sh */,
+				A03147360A238687C65EC644E050581B /* Pods-MarkusLib_Example-resources.sh */,
+				F080F22A6B5EE45FC53DA232AF6CF5CA /* Pods-MarkusLib_Example-umbrella.h */,
+				24AA128D5D3BE45632ECA11F2EAF42E1 /* Pods-MarkusLib_Example.debug.xcconfig */,
+				5915411C73AC1C7AF6A43E0B77F362BD /* Pods-MarkusLib_Example.release.xcconfig */,
+			);
+			name = "Pods-MarkusLib_Example";
+			path = "Target Support Files/Pods-MarkusLib_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0482EA671DCD7DD3701C0DCA36B3BFC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C67A36E661076960EA0A0F2898D56DF /* Pods-MarkusLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF4382AF298E5BA2351771FCECA21FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C792318230B4880ED625115D5A5892E /* MarkusLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DF70BB5274E1236DE40F8ED89D1B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F124B8B41F39028D8AC20B6CA427B5 /* Pods-MarkusLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30D7C69BA1EE7E83E8B17CC388361103 /* Pods-MarkusLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9E1A7650B1A24E871D318379202A34 /* Build configuration list for PBXNativeTarget "Pods-MarkusLib_Tests" */;
+			buildPhases = (
+				84B0073808520B3E026C345EF559D2C0 /* Sources */,
+				12313F8C220D0AE86F42F01FE3C554E0 /* Frameworks */,
+				87DF70BB5274E1236DE40F8ED89D1B3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MarkusLib_Tests";
+			productName = "Pods-MarkusLib_Tests";
+			productReference = 7AFBC6EE8DF257CC82A0195FB2E5EEB5 /* Pods_MarkusLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685DC2EBD056E5C24C07260CDD8A3915 /* MarkusLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D737F9637E8197B7B901AD43C11613 /* Build configuration list for PBXNativeTarget "MarkusLib" */;
+			buildPhases = (
+				C6AFEAC4AFF4286D65894D220D7ECBDE /* Sources */,
+				A457CB0808DEAEC024F78607F572AC15 /* Frameworks */,
+				7AF4382AF298E5BA2351771FCECA21FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkusLib;
+			productName = MarkusLib;
+			productReference = C6B93136FF635912B6498288847BFD10 /* MarkusLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCA0B8D7436B48DE80BEA18BD258323 /* Pods-MarkusLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5913276E5378F1F86CDF3539EA8BFB1C /* Build configuration list for PBXNativeTarget "Pods-MarkusLib_Example" */;
+			buildPhases = (
+				8A060C4E7948B13509EEF227D0B384E7 /* Sources */,
+				AA28820D8D737895B2460DCFFA289263 /* Frameworks */,
+				0482EA671DCD7DD3701C0DCA36B3BFC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD72C5F6036FF3B3CD2B34631B88643 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarkusLib_Example";
+			productName = "Pods-MarkusLib_Example";
+			productReference = E6FE72AFF3A0475303511DD534F1A403 /* Pods_MarkusLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7AADE8E4E1D06CAB47CD7908EA16E3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685DC2EBD056E5C24C07260CDD8A3915 /* MarkusLib */,
+				FCCA0B8D7436B48DE80BEA18BD258323 /* Pods-MarkusLib_Example */,
+				30D7C69BA1EE7E83E8B17CC388361103 /* Pods-MarkusLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B0073808520B3E026C345EF559D2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C2CCDEAFF6BCDEAA4ED089FF60071D /* Pods-MarkusLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A060C4E7948B13509EEF227D0B384E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3F86332A7C37AB2B91631AF768E62D /* Pods-MarkusLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AFEAC4AFF4286D65894D220D7ECBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB16692A635B53D4AEB9BA4400D2AF9 /* MarkusLib-dummy.m in Sources */,
+				A5CCA43B1DF09861AA8C1B82D0C65D74 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD72C5F6036FF3B3CD2B34631B88643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarkusLib;
+			target = 685DC2EBD056E5C24C07260CDD8A3915 /* MarkusLib */;
+			targetProxy = 04F97EDB42F9B371B7671DF95687BAEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F061E36F992C3510C9564DD68384AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5915411C73AC1C7AF6A43E0B77F362BD /* Pods-MarkusLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarkusLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarkusLib_Example/Pods-MarkusLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarkusLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4404B66559A4463000E809BB32D30342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA4C819FB3A006EF3E61AD1C27EABDF /* MarkusLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarkusLib/MarkusLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkusLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarkusLib/MarkusLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MarkusLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B980870CA3DE5ED9BF4D44D03E29F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA4C819FB3A006EF3E61AD1C27EABDF /* MarkusLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarkusLib/MarkusLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarkusLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarkusLib/MarkusLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MarkusLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8740B05BD3C2053296CBFD0F5CC14D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D524C32CA1F41F0B6EBF0C63E610B19E /* Pods-MarkusLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarkusLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarkusLib_Tests/Pods-MarkusLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarkusLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBEA6B694652F26E0F62CB89489C4426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40433F544AAE3D84DE0F31CC1AD8FAE3 /* Pods-MarkusLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarkusLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarkusLib_Tests/Pods-MarkusLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarkusLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9C54E62C081CBB2DD5D37D6931A45E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AA128D5D3BE45632ECA11F2EAF42E1 /* Pods-MarkusLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarkusLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarkusLib_Example/Pods-MarkusLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarkusLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D737F9637E8197B7B901AD43C11613 /* Build configuration list for PBXNativeTarget "MarkusLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B980870CA3DE5ED9BF4D44D03E29F98 /* Debug */,
+				4404B66559A4463000E809BB32D30342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5913276E5378F1F86CDF3539EA8BFB1C /* Build configuration list for PBXNativeTarget "Pods-MarkusLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C54E62C081CBB2DD5D37D6931A45E0 /* Debug */,
+				02F061E36F992C3510C9564DD68384AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9E1A7650B1A24E871D318379202A34 /* Build configuration list for PBXNativeTarget "Pods-MarkusLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEA6B694652F26E0F62CB89489C4426 /* Debug */,
+				8740B05BD3C2053296CBFD0F5CC14D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
