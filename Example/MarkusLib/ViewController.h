@@ -1,5 +1,5 @@
 //
-//  .AppDelegate.h
+//  .ViewController.h
 //  MarkusLib
 //
 //  Created by Markus on 07/11/2016.
@@ -8,8 +8,6 @@
 
 @import UIKit;
 
-@interface .AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ViewController : UIViewController
 
 @end

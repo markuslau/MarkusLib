@@ -8,6 +8,3 @@ target 'MarkusLib' do
   # Pods for MarkusLib
 
 end
-
-
-end

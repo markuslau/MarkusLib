@@ -6,9 +6,9 @@
 //  Copyright (c) 2016 Markus. All rights reserved.
 //
 
-#import ".AppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation .AppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

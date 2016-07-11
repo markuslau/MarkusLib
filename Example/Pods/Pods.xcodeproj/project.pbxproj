@@ -14,7 +14,9 @@
 		97C2CCDEAFF6BCDEAA4ED089FF60071D /* Pods-MarkusLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7311B35D82A5F56B3EDDBA56A2A749C9 /* Pods-MarkusLib_Tests-dummy.m */; };
 		9C67A36E661076960EA0A0F2898D56DF /* Pods-MarkusLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F080F22A6B5EE45FC53DA232AF6CF5CA /* Pods-MarkusLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1D5BF763CA5A5D82A8FB858E73A94B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A5CCA43B1DF09861AA8C1B82D0C65D74 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */; };
+		A5CCA43B1DF09861AA8C1B82D0C65D74 /* MarkusLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A89C3309E849AAC3E51CFFDB44082AB /* MarkusLib.m */; };
+		CEBDFF1C1D33A3FD00C4E749 /* AddOne.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBDFF1A1D33A3FD00C4E749 /* AddOne.h */; };
+		CEBDFF1D1D33A3FD00C4E749 /* AddOne.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFF1B1D33A3FD00C4E749 /* AddOne.m */; };
 		F5F124B8B41F39028D8AC20B6CA427B5 /* Pods-MarkusLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A4C4C4FB6CD1DF6D25E138A84EC694 /* Pods-MarkusLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF7B26B212945BE967D5F4580A02198F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,7 @@
 		5915411C73AC1C7AF6A43E0B77F362BD /* Pods-MarkusLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		61F1DF8CE7530DA7301CDC8FE658E73C /* MarkusLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarkusLib-prefix.pch"; sourceTree = "<group>"; };
 		655DFE2E82DEFD57EFAC3863A125523A /* Pods-MarkusLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		6A89C3309E849AAC3E51CFFDB44082AB /* MarkusLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MarkusLib.m; sourceTree = "<group>"; };
 		7311B35D82A5F56B3EDDBA56A2A749C9 /* Pods-MarkusLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarkusLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		7AFBC6EE8DF257CC82A0195FB2E5EEB5 /* Pods_MarkusLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkusLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB870FE038250F3E7E2C1E36DD5356A /* Pods-MarkusLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarkusLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 		AEE45DB1EDA3294C32488CC43C609F3C /* Pods-MarkusLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarkusLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		C6B93136FF635912B6498288847BFD10 /* MarkusLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkusLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AE22556ECF732F11E6087CB75DBFF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBDFF1A1D33A3FD00C4E749 /* AddOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOne.h; sourceTree = "<group>"; };
+		CEBDFF1B1D33A3FD00C4E749 /* AddOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOne.m; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D524C32CA1F41F0B6EBF0C63E610B19E /* Pods-MarkusLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarkusLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DBA4C819FB3A006EF3E61AD1C27EABDF /* MarkusLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarkusLib.xcconfig; sourceTree = "<group>"; };
@@ -135,7 +139,9 @@
 		5AA8812131EE053B4FD411D83F935985 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6A89C3309E849AAC3E51CFFDB44082AB /* ReplaceMe.m */,
+				6A89C3309E849AAC3E51CFFDB44082AB /* MarkusLib.m */,
+				CEBDFF1A1D33A3FD00C4E749 /* AddOne.h */,
+				CEBDFF1B1D33A3FD00C4E749 /* AddOne.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C792318230B4880ED625115D5A5892E /* MarkusLib-umbrella.h in Headers */,
+				CEBDFF1C1D33A3FD00C4E749 /* AddOne.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB16692A635B53D4AEB9BA4400D2AF9 /* MarkusLib-dummy.m in Sources */,
-				A5CCA43B1DF09861AA8C1B82D0C65D74 /* ReplaceMe.m in Sources */,
+				A5CCA43B1DF09861AA8C1B82D0C65D74 /* MarkusLib.m in Sources */,
+				CEBDFF1D1D33A3FD00C4E749 /* AddOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,13 +6,14 @@
 //  Copyright (c) 2016 Markus. All rights reserved.
 //
 
-#import ".ViewController.h"
+#import "ViewController.h"
+#import <MarkusLib/AddOne.h>
 
-@interface .ViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation .ViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
