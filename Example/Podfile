@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarkusLib_Example' do
+  pod 'MarkusLib', :path => '../'
+
+  target 'MarkusLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
