@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = {"Markus"=>"markusl@outblaze.net"}
   s.homepage = 'https://github.com/markuslau/MarkusLib'
   s.description = 'TODO: Add long description of the pod here.'
-  s.source = MarkusLib
+  s.source = { :path => '.' }
 
   s.ios.deployment_target    = '8.0'
   s.ios.preserve_paths       = 'ios/MarkusLib.framework'
