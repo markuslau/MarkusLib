@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MarkusLib/Classes/**/*'
+  s.source_files = 'MarkusLib/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MarkusLib' => ['MarkusLib/Assets/*.png']
   # }
 
-  s.public_header_files = 'MarkusLib/Classes/AddOne.h'
+  s.public_header_files = 'MarkusLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
